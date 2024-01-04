@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3d8b9;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100px;
+}
+
+.logo-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.spoiler-img {
+    cursor: pointer;
+    
+}
+
+.spoiler-img img {
+    display: none;
+}
+
+.spoiler-img.show img {
+    display: block;
+}
